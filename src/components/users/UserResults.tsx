@@ -15,11 +15,7 @@ function UserResults() {
 			</div>
 		);
 	} else {
-		return (
-			<div className='flex content-center justify-center '>
-				<LoadingEffect />
-			</div>
-		);
+		return <LoadingEffect />;
 	}
 }
 

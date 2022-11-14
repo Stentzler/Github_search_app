@@ -2,13 +2,15 @@ import ReactLoading from 'react-loading';
 
 function LoadingEffect() {
 	return (
-		<ReactLoading
-			className='loading'
-			type={'bubbles'}
-			color={'#dedede'}
-			height={'5%'}
-			width={'5%'}
-		/>
+		<div className='flex content-center justify-center '>
+			<ReactLoading
+				className='loading'
+				type={'bubbles'}
+				color={'#dedede'}
+				height={'5%'}
+				width={'5%'}
+			/>
+		</div>
 	);
 }
 
